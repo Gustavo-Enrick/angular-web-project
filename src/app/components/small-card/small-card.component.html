@@ -2,11 +2,11 @@
   <div class="container__small-card-content">
     <div class="small-car__photo">
       <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJiT-UHSm6w0Jperb8SitpfoAKeMUE3uynPg5YO-2Drw&s"
+      src="{{photoCover}}"
       alt="placeholder">
     </div>
     <div class="small-card__title">
-      <h1><a href="#">NOVA VERSÃO DO ANGULAR </a> </h1>
+      <h1><a [routerLink]="['content',Id]">{{cardTitle}}</a> </h1>
     </div>
   </div>
   <div class="container__small-card__separator">
