@@ -4,3 +4,17 @@
   flex-direction: row;
   justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+  .container__articles{
+    flex-direction: column;
+  }
+  .atircles__main{
+    display: flex;
+    justify-content: center;
+  }
+
+  .atircles__others{
+    padding-left: 10px;
+  }
+}

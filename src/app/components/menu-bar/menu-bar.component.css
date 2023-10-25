@@ -1,11 +1,24 @@
 .container__menu-bar > ul{
   display: flex;
   flex-direction: row;
+  margin-bottom: 2px;
 }
 
 .container__menu-bar > ul > li{
   display: flex;
   flex-direction: row;
-  margin-right: 20px;
+  margin-right: 10px;
   list-style: none;
 }
+
+.menu-bar__ul__social > img{
+  padding: 0px 13px;
+  height: 20px;
+  width: 68px;
+}
+
+
+@media screen and (max-width: 769px) {
+  .menu-bar__ul__social > img{ display: none;}
+}
+

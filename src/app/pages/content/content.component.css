@@ -20,7 +20,14 @@
  margin-top: 15px;
 }
 
+.container__description{
+  display: flex;
+  justify-content: center;
+  margin: 0% 10%;
+}
+
 .container__description > p{
   margin-top: 20px;
   color: rgb(198, 197, 197);
+
 }
